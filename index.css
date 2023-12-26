@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
+   
+}
+.bg{
+    position: absolute;
+    height: 100vw;
+    width: 100vw;
+    background-image: linear-gradient(145deg,white,rgb(221, 181, 50));
+}
+.title{
+    position: absolute;
+    margin-left:35vw;
+    color: rgb(82, 10, 55);
+}
+.container{
+    margin: auto;
+    margin-top: 100px;
+    height: 37vw;
+    width: 35vw;
+    border-radius: 20px;
+    background-image: linear-gradient(145deg,rgb(89, 242, 216),rgb(8, 73, 90));
+    border: none;
+    box-shadow: 1px 1px 10px 1px white;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 37px;
+    color:black;
+}
+.search Input{
+   height: 50px;
+   width: 80%;
+   border-radius: 20px;
+   outline: none;
+   border: 1px solid white;
+   color:black;
+
+}
+.search Button{
+    height: 50px;
+    width: 18%;
+    border-radius: 50%;
+    border: none;
+}
+.Button img{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.weather-icon{
+    height: 30%;
+    margin-left: 170px;
+    margin-top: 40px;
+
+}
+.temp{
+    margin-left: 210px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.CityName{
+    
+    margin-left: 190px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(103, 52, 47);
+}
+.lowerDisp{
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    height: 70px;
+    width: 70%;
+
+}
+.lowerDisp img{
+    height: 60%;
+    margin-top: 20px;
+}
+.lowerDisp h1{
+    font-size: x-large;
+    font-weight: 600;
+    color: rgb(86, 34, 34);
+    margin-top: 20px;
+}
+
+.speed{
+    margin-left: 180px ;
+}
+.lowerDisp2{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.lowerDisp2 h4{
+     font-weight: 300;
+
+}
